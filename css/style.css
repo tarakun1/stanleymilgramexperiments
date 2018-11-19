@@ -1,0 +1,162 @@
+                    /*affect all*/
+
+body {  font-family: garamond, baskerville, times new roman, serif;
+        font-size: 100%;
+        line-height: 2em;
+        background-color: rgba(188,196,216, 90%); 
+
+
+}
+
+h1 {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    
+}
+
+
+                        /*=======HOME========*/
+
+
+
+
+        /*=======BACKGROUND IMAGES========*/
+#homepage {
+        background-image: url(/images/firstimage.jpg);
+        background-attachment: fixed;
+        background-position: right center; 
+        background-repeat: no-repeat; 
+        background-size: 100%;
+        
+
+}
+
+#onebackground {
+        background-image: url(/images/obediencefinal.jpg);
+        background-attachment: fixed;
+        background-position:  center; 
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+
+}
+
+#twobackground {
+        background-image: url(/images/lettersx.jpg);
+        background-attachment: fixed;
+        background-position: right center; 
+        background-repeat: no-repeat; 
+        background-size: 100%;
+        
+
+}
+
+#threebackground {
+        background-image: url(/images/separation.jpg);
+        background-attachment: fixed;
+        background-position: right center; 
+        background-repeat: no-repeat; 
+        background-size: 100%;
+        
+
+}
+
+#fourbackground {
+        background-image: url(/images/groupthinkx.jpg);
+        background-attachment: fixed;
+        background-position: right center; 
+        background-repeat: no-repeat; 
+        background-size: 100%;
+        
+
+}
+                    /*======NAVIGATION BAR========*/
+
+ul.nav {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 15%;
+    background-color:rgba(188,196,216, 90%);
+    position: fixed;
+    height: 100%;
+    overflow: auto;  
+    
+}
+
+li a { 
+    display: block;
+    color: #546A7B;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.25em;
+      
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover {
+        background-color: rgba(250,225,223, 70%)
+}
+
+
+
+                        /*======ALL IMAGES=========*/
+/*img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}*/
+
+
+
+                        /*======ALL PAGES--------*/
+
+
+p {font-size: 1.8em;
+    text-indent: 2em;
+}
+
+.border {border: solid 1.5px black;
+           
+}
+
+
+.parabox {background-color: rgba(255,250,250, 75%);
+          padding: 20px;
+    border: solid 1px rgba(255,250,250, 75%);
+    margin-left: 300px;
+    margin-right: 150px;
+
+
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    height: 3%;
+    font-size: 1em;
+   background-color: rgba(250,225,223, 100%);
+   color: white;
+   text-align: center;
+}
