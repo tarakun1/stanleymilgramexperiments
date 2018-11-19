@@ -1,7 +1,13 @@
                     /*affect all*/
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Roboto');
 
-body {  font-family: garamond, baskerville, times new roman, serif;
-        font-size: 100%;
+/*font-family: 'EB Garamond', serif;
+font-family: 'Roboto', sans-serif;*/
+
+body {  font-family:'EB Garamond', serif; 
+        font-size: 100%; 
+        font-style: normal; 
+        font-variant: normal; 
         line-height: 2em;
         background-color: rgba(188,196,216, 90%); 
 
@@ -9,7 +15,7 @@ body {  font-family: garamond, baskerville, times new roman, serif;
 }
 
 h1 {
-    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 5em;
     color: white;
     text-align: center;
@@ -17,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-family: helvetica neue, helvetica, arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.5em;
     color: white;
     text-align: center;
@@ -32,7 +38,7 @@ h2 {
 
         /*=======BACKGROUND IMAGES========*/
 #homepage {
-        background-image: url(/images/firstimage.jpg);
+        background-image: url(../images/firstimage.jpg);
         background-attachment: fixed;
         background-position: right center; 
         background-repeat: no-repeat; 
@@ -42,7 +48,7 @@ h2 {
 }
 
 #onebackground {
-        background-image: url(/images/obediencefinal.jpg);
+        background-image: url(../images/obediencefinal.jpg);
         background-attachment: fixed;
         background-position:  center; 
         background-repeat: no-repeat;
@@ -52,7 +58,7 @@ h2 {
 }
 
 #twobackground {
-        background-image: url(/images/lettersx.jpg);
+        background-image: url(../images/lettersx.jpg);
         background-attachment: fixed;
         background-position: right center; 
         background-repeat: no-repeat; 
@@ -62,7 +68,7 @@ h2 {
 }
 
 #threebackground {
-        background-image: url(/images/separation.jpg);
+        background-image: url(../images/separation.jpg);
         background-attachment: fixed;
         background-position: right center; 
         background-repeat: no-repeat; 
@@ -72,7 +78,7 @@ h2 {
 }
 
 #fourbackground {
-        background-image: url(/images/groupthinkx.jpg);
+        background-image: url(../images/groupthinkx.jpg);
         background-attachment: fixed;
         background-position: right center; 
         background-repeat: no-repeat; 
@@ -130,12 +136,16 @@ li a:hover {
                         /*======ALL PAGES--------*/
 
 
-p {font-size: 1.8em;
+p {font-size: 1.3em;
     text-indent: 2em;
 }
 
-.border {border: solid 1.5px black;
-           
+.special {font-size: 1.3em;
+    text-indent: 2em;
+}
+
+ul {
+        list-style-type: none;
 }
 
 
@@ -154,7 +164,7 @@ p {font-size: 1.8em;
    left: 0;
    bottom: 0;
    width: 100%;
-    height: 3%;
+    height: 5%;
     font-size: 1em;
    background-color: rgba(250,225,223, 100%);
    color: white;
